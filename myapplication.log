@@ -1,0 +1,98 @@
+2020-03-31 14:38:29.138  INFO 27780 --- [main] cn.edu.scujcc.DiandianApplication        : Starting DiandianApplication on LAPTOP-GAJNQ8VT with PID 27780 (E:\spring\Projects\diandian\bin\main started by 86133 in E:\spring\Projects\diandian)
+2020-03-31 14:38:29.141  INFO 27780 --- [main] cn.edu.scujcc.DiandianApplication        : No active profile set, falling back to default profiles: default
+2020-03-31 14:38:29.862  INFO 27780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-31 14:38:29.885  INFO 27780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 MongoDB repository interfaces.
+2020-03-31 14:38:30.556  INFO 27780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-31 14:38:30.568  INFO 27780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 14:38:30.569  INFO 27780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 14:38:30.685  INFO 27780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 14:38:30.685  INFO 27780 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1472 ms
+2020-03-31 14:38:30.737  WARN 27780 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'channelController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'channelService': Unsatisfied dependency expressed through field 'repo'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.edu.cujcc.dao.ChannelRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-31 14:38:30.741  INFO 27780 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-31 14:38:30.753  INFO 27780 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-31 14:38:30.930 ERROR 27780 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repo in cn.edu.scujcc.service.ChannelService required a bean of type 'cn.edu.cujcc.dao.ChannelRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'cn.edu.cujcc.dao.ChannelRepository' in your configuration.
+
+2020-03-31 14:55:19.749  INFO 6836 --- [main] cn.edu.scujcc.DiandianApplication        : Starting DiandianApplication on LAPTOP-GAJNQ8VT with PID 6836 (E:\spring\Projects\diandian\bin\main started by 86133 in E:\spring\Projects\diandian)
+2020-03-31 14:55:19.751  INFO 6836 --- [main] cn.edu.scujcc.DiandianApplication        : No active profile set, falling back to default profiles: default
+2020-03-31 14:55:20.195  INFO 6836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-31 14:55:20.211  INFO 6836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 MongoDB repository interfaces.
+2020-03-31 14:55:20.649  INFO 6836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-31 14:55:20.656  INFO 6836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 14:55:20.656  INFO 6836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 14:55:20.756  INFO 6836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 14:55:20.757  INFO 6836 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 977 ms
+2020-03-31 14:55:20.852  WARN 6836 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'channelController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'channelService': Unsatisfied dependency expressed through field 'repo'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.edu.cujcc.dao.ChannelRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-31 14:55:20.860  INFO 6836 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-31 14:55:20.882  INFO 6836 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-31 14:55:21.065 ERROR 6836 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repo in cn.edu.scujcc.service.ChannelService required a bean of type 'cn.edu.cujcc.dao.ChannelRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'cn.edu.cujcc.dao.ChannelRepository' in your configuration.
+
+2020-03-31 15:03:06.343  INFO 19512 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Starting DiandianApplication on LAPTOP-GAJNQ8VT with PID 19512 (E:\spring\Projects\diandian\bin\main started by 86133 in E:\spring\Projects\diandian)
+2020-03-31 15:03:06.345  INFO 19512 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : No active profile set, falling back to default profiles: default
+2020-03-31 15:03:06.409  INFO 19512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-31 15:03:06.410  INFO 19512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-31 15:03:07.176  INFO 19512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-31 15:03:07.214  INFO 19512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 MongoDB repository interfaces.
+2020-03-31 15:03:07.882  INFO 19512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-31 15:03:07.901  INFO 19512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 15:03:07.902  INFO 19512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 15:03:08.028  INFO 19512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 15:03:08.028  INFO 19512 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1618 ms
+2020-03-31 15:03:08.092  WARN 19512 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'channelController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'channelService': Unsatisfied dependency expressed through field 'repo'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.edu.cujcc.dao.ChannelRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-31 15:03:08.094  INFO 19512 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-31 15:03:08.107  INFO 19512 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-31 15:03:08.234 ERROR 19512 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repo in cn.edu.scujcc.service.ChannelService required a bean of type 'cn.edu.cujcc.dao.ChannelRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'cn.edu.cujcc.dao.ChannelRepository' in your configuration.
+
